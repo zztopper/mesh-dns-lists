@@ -1,0 +1,83 @@
+# Personal foreign — route through foreign exit (ams/fra)
+# Source: migrated from msk-home DNS FWD -> 10.200.0.13 (legacy GRE to fra)
+# Each domain gets match-subdomain=yes in RouterOS, so subdomains are covered.
+
+# --- Discord (all known TLDs) ---
+discord.com
+discord.co
+discord.design
+discord.dev
+discord.gg
+discord.gift
+discord.gifts
+discord.media
+discord.new
+discord.store
+discord.tools
+discord-activities.com
+discordactivities.com
+discordapp.com
+discordapp.io
+discordapp.net
+discordapp.org
+discordappcdn.com
+discordappcdn.net
+discordappcdn.org
+discordcdn.com
+discordmerch.com
+discordpartygames.com
+discordsays.com
+discordstatus.com
+
+# --- Cloud / DevOps ---
+oracle.com
+oraclecloud.com
+broadcom.com
+vmware.com
+hashicorp.com
+terraform.io
+autodesk.com
+bitnami.com
+launchdarkly.com
+cloudflare.com
+docker.com
+docker.io
+
+# --- AI / LLM ---
+chatgpt.com
+openai.com
+oaistatic.com
+oaiusercontent.com
+claude.ai
+anthropic.com
+lmstudio.ai
+raycast.com
+context7.com
+
+# --- Media / Content ---
+medium.com
+rutracker.org
+flibusta.is
+brokenstones.is
+lukeslab.io
+flightradar24.com
+fr24.com
+
+# --- Smart Home (Hisense ConnectLife) ---
+connectlife.io
+hijuconn.com
+
+# --- Network / Hardware ---
+ui.com
+ubnt.com
+
+# --- Travel / Services ---
+airbnb.com
+postmarkapp.com
+pawpeds.com
+
+# --- Other ---
+etahub.com
+amalfi.day
+hip.hosting
+ikea.com

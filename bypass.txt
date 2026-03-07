@@ -1,0 +1,32 @@
+# Bypass — route direct via ISP (Russian VNH, no VPN)
+# For government, banking, and RU services that require Russian IP.
+# Each domain gets match-subdomain=yes in RouterOS, so subdomains are covered.
+
+# --- Government ---
+gosuslugi.ru
+nalog.gov.ru
+nalog.ru
+mos.ru
+pfr.gov.ru
+zakupki.gov.ru
+mos-gorsud.ru
+
+# --- Banking ---
+sberbank.ru
+tinkoff.ru
+tcsbank.ru
+vtb.ru
+cbr.ru
+
+# --- Airlines / Travel ---
+s7.ru
+sutochno.ru
+
+# --- Shopping / Services ---
+kdl.ru
+friday.ru
+uma.media
+start.ru
+yamaguchi.ru
+vdska.ru
+klipper.wiki

@@ -1,0 +1,14 @@
+# Bypass IP prefixes — route direct via ISP (Russian VNH)
+# Source: migrated from msk-home address-list=bypass
+
+# --- SKB Kontur VPN endpoints ---
+46.17.201.172/32
+46.17.202.53/32
+91.221.248.48/32
+91.221.248.50/32
+91.221.249.48/32
+91.221.249.49/32
+91.221.249.50/32
+
+# --- Other ---
+109.207.0.0/20
