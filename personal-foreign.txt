@@ -50,6 +50,7 @@ oaistatic.com
 oaiusercontent.com
 claude.ai
 anthropic.com
+api.anthropic.com
 lmstudio.ai
 raycast.com
 context7.com
@@ -81,3 +82,4 @@ etahub.com
 amalfi.day
 hip.hosting
 ikea.com
+
