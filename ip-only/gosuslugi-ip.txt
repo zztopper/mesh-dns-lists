@@ -1,0 +1,1 @@
+# Gosuslugi IP addresses (add specific IPs if DNS resolution is insufficient)
