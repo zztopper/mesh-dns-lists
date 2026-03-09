@@ -3,7 +3,6 @@
 # Each domain gets match-subdomain=yes in RouterOS, so subdomains are covered.
 
 # --- Government ---
-gosuslugi.ru
 nalog.gov.ru
 nalog.ru
 mos.ru
