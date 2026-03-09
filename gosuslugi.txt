@@ -1,0 +1,10 @@
+# Gosuslugi — route via msk-home residential IP (community 64512:5, VNH .51)
+# These services require residential Russian IP; datacenter/foreign IPs get blocked.
+# Each domain gets match-subdomain=yes in RouterOS, so subdomains are covered.
+
+gosuslugi.ru
+esia.gosuslugi.ru
+lk.gosuslugi.ru
+pos.gosuslugi.ru
+id.gosuslugi.ru
+lkuv.gosuslugi.ru
