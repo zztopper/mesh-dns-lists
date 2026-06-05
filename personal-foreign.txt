@@ -48,14 +48,41 @@ chatgpt.com
 openai.com
 oaistatic.com
 oaiusercontent.com
+chat.openai.com
+ws.chatgpt.com
+files.oaiusercontent.com
+persistent.oaistatic.com
+oaisidekickupdates.blob.core.windows.net
+cdn.oaistatic.com
+ab.chatgpt.com
+ios.chat.openai.com
+auth.openai.com
+auth0.openai.com
+api.openai.com
+platform.openai.com
+developers.openai.com
 sora.com
+sora-cdn.oaistatic.com
 livekit.cloud
 openaicom.imgix.net
 production-openaicom-storage.azureedge.net
 openaicomproductionae4b.blob.core.windows.net
+sdmntprwestus.oaiusercontent.com
+sdmntprwestus2.oaiusercontent.com
+sdmntprwestus3.oaiusercontent.com
+sdmntpreastus.oaiusercontent.com
+sdmntpreastus2.oaiusercontent.com
+sdmntprnortheu.oaiusercontent.com
+sdmntprcentralus.oaiusercontent.com
+sdmntprsoutheastus3.oaiusercontent.com
+sdmntprjapaneast.oaiusercontent.com
+sdmntprpolandcentral.oaiusercontent.com
 claude.ai
 anthropic.com
 api.anthropic.com
+# NOTE: Anthropic uses 160.79.104.0/24 — added as static address-list entry
+# because DNS TTL (~5min) causes dynamic entries to expire, breaking long sessions.
+# Static entry: /ip firewall address-list add list=personal-foreign address=160.79.104.0/24 comment="Anthropic/Claude API static"
 lmstudio.ai
 raycast.com
 context7.com
