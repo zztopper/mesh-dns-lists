@@ -86,6 +86,11 @@ api.anthropic.com
 lmstudio.ai
 raycast.com
 context7.com
+deepinfra.com
+# NOTE: api.deepinfra.com backend is on Cogent (38.101.151.0/24), separate from the
+# Vercel-hosted frontend. match-subdomain=yes covers it, but the API uses short-TTL
+# rotating IPs — consider a static address-list entry for 38.101.151.0/24 (like Anthropic)
+# if dynamic entries expire mid-session.
 
 # --- Streaming ---
 kino.pub
