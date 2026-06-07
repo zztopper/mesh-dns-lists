@@ -389,3 +389,7 @@
 213.102.128.0/22
 62.84.0.0/20
 84.15.0.0/16
+
+# --- deepinfra API backend (Cogent) — static; covers rotating api.deepinfra.com IPs ---
+# Observed pool 38.101.151.13-30; /24 closes the short-TTL rotation gap (cf. Anthropic 160.79.104.0/24).
+38.101.151.0/24
