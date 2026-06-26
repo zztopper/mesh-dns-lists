@@ -393,3 +393,12 @@
 # --- deepinfra API backend (Cogent) — static; covers rotating api.deepinfra.com IPs ---
 # Observed pool 38.101.151.13-30; /24 closes the short-TTL rotation gap (cf. Anthropic 160.79.104.0/24).
 38.101.151.0/24
+
+# --- kino.pub video CDN — foreign hosting (OVH FR / intergenia DE / G-Core DE) ---
+# Stream served from bare dedicated-server IPs (not kino.pub subdomains), so the kino.pub
+# DNS-FWD misses them -> they fell to antifilter default -> local RU WAN -> TSPU throttle/drop
+# -> video metadata/stream failed while the catalog (kino.pub API, personal-foreign) worked.
+# Captured 2026-06-27 from AppleTV 10.20.0.76. See dobor list kino-cdn-suspects for more.
+51.255.91.0/24
+62.75.136.0/24
+92.223.124.0/24
