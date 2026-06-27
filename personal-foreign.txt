@@ -129,3 +129,7 @@ pornhubapparel.com
 pornhub.com
 pornhub.org
 pornhubpremium.com
+
+# --- YouTube video CDN + InnerTube control-plane via fra (b4 can no longer defeat TSPU googlevideo block; route foreign) ---
+googlevideo.com
+youtubei.googleapis.com
