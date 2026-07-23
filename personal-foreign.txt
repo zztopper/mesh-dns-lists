@@ -133,3 +133,6 @@ pornhubpremium.com
 # --- YouTube video CDN + InnerTube control-plane via fra (b4 can no longer defeat TSPU googlevideo block; route foreign) ---
 googlevideo.com
 youtubei.googleapis.com
+
+# --- Google Cloud Storage (via fra) ---
+storage.googleapis.com
