@@ -94,6 +94,7 @@ deepinfra.com
 
 # --- Streaming ---
 kino.pub
+kino.watch
 
 # --- Media / Content ---
 medium.com
