@@ -137,3 +137,4 @@ youtubei.googleapis.com
 
 # --- Google Cloud Storage (via fra) ---
 storage.googleapis.com
+cdntogo.net
