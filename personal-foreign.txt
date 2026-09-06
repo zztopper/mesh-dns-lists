@@ -135,5 +135,17 @@ pornhubpremium.com
 googlevideo.com
 youtubei.googleapis.com
 
+# --- YouTube site itself via fra (added 2026-09-06) ---
+# b4 stopped defeating the youtube.com block entirely: 0-20% success measured on
+# 7 strategies from a fresh 203-test discovery (b4 itself rated all of them
+# "working" at 500+ KB/s -- its discovery probes from inside the container and
+# does not reflect forwarded client traffic). Via fra the same requests: 8/8.
+# google.com and facebook.com still pass through b4 and stay in dpi-bypass.
+youtube.com
+youtu.be
+ytimg.com
+ggpht.com
+youtube-nocookie.com
+
 # --- Google Cloud Storage (via fra) ---
 storage.googleapis.com
