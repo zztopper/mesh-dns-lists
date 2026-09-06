@@ -1,6 +1,4 @@
-# YouTube-домены перенесены в personal-foreign 2026-09-06:
-# b4 перестал пробивать блокировку (0-20% на 7 стратегиях), через fra — 8/8.
-
-instagram.com
-cdninstagram.com
-cdntogo.net
+# Список пуст: и YouTube, и Instagram перенесены в personal-foreign 2026-09-06.
+# b4 перестал пробивать обе блокировки (замеры с клиента 0-20%), маршрут через fra
+# работает стабильно. b4 продолжает обслуживать Google-сервисы по статическим
+# диапазонам в address-list (comment=static-google-ranges) — они не в этом файле.
