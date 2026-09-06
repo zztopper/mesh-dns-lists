@@ -147,5 +147,12 @@ ytimg.com
 ggpht.com
 youtube-nocookie.com
 
+# --- Instagram via fra (added 2026-09-06) ---
+# Same story as YouTube: b4 no longer defeats the block (timeouts on every
+# strategy tried), while the foreign route works. Moved out of dpi-bypass.
+instagram.com
+cdninstagram.com
+cdntogo.net
+
 # --- Google Cloud Storage (via fra) ---
 storage.googleapis.com
