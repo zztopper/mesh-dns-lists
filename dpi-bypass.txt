@@ -1,8 +1,6 @@
-youtube.com
-ytimg.com
-ggpht.com
-youtube-nocookie.com
-youtu.be
+# YouTube-домены перенесены в personal-foreign 2026-09-06:
+# b4 перестал пробивать блокировку (0-20% на 7 стратегиях), через fra — 8/8.
+
 instagram.com
 cdninstagram.com
 cdntogo.net
