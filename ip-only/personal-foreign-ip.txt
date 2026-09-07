@@ -405,3 +405,11 @@
 
 # --- YouTube InnerTube control-plane (216.239.32.0/19) -> fra so YouTube assigns foreign caches, not in-RU GGC ---
 216.239.32.0/19
+
+# --- Trans Maldivian Airways (www на Linode) via fra, added 2026-09-07 ---
+# DPI рвёт TLS-поток на произвольном месте: из дома доходит 0-16 КБ из 127 КБ,
+# дальше соединение висит до таймаута. MTU целый (1472 DF проходит), маршрут прямой.
+# Доменной записи в personal-foreign НЕ ХВАТИЛО: DNS-механизм не наполняет
+# address-list для этого хоста (для youtube.com тот же механизм работает),
+# а без записи в address-list mangle не маркирует трафик и он идёт мимо fra.
+139.162.10.207/32
