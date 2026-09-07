@@ -164,3 +164,6 @@ storage.googleapis.com
 # direct via ISP. Through fra: full 127 KB in 2.2 s, 3/3.
 # match-subdomain=yes in sync-dns-lists covers www and any other subdomain.
 transmaldivian.com
+# www живёт на другом хостинге (Linode), чем корень (Cloudflare), и match-subdomain
+# для него почему-то не срабатывает — заводим явной записью.
+www.transmaldivian.com
