@@ -156,3 +156,11 @@ cdntogo.net
 
 # --- Google Cloud Storage (via fra) ---
 storage.googleapis.com
+
+# --- Trans Maldivian Airways via fra (added 2026-09-07) ---
+# DPI tears the TLS stream mid-transfer: from home only 0-16 KB of the 127 KB page
+# arrives, cutoff at a random offset each time (HTTP/1.1 and h2 alike), then the
+# connection hangs until timeout. MTU is fine (1472 DF passes) and the route is
+# direct via ISP. Through fra: full 127 KB in 2.2 s, 3/3.
+# match-subdomain=yes in sync-dns-lists covers www and any other subdomain.
+transmaldivian.com
