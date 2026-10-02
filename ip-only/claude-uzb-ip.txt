@@ -1,0 +1,2 @@
+# Anthropic-owned prefix; protects sessions across short DNS TTLs.
+160.79.104.0/24
