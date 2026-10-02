@@ -1,0 +1,10 @@
+# msk-home only: Anthropic/Claude through the OpenConnect UZB VNH.
+# FWD entries match subdomains. Other nodes retain personal-foreign routing.
+claude.ai
+anthropic.com
+api.anthropic.com
+claude.com
+claudeusercontent.com
+claude.site
+# Observed CNAME of s-cdn.anthropic.com; keep this exact CDN hostname.
+b-0.hexagon-cdn.com
