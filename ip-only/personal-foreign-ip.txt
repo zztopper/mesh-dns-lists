@@ -415,3 +415,6 @@
 # ВАЖНО: одиночные адреса писать БЕЗ /32 — RouterOS нормализует их без маски,
 # и скрипт синхронизации, сравнивая строки, удаляет запись сразу после добавления.
 139.162.10.207
+
+# --- kino.watch / kino.pub API (ungleich CH) — pinned so routing via fra does not depend on DNS-learned entries (2026-10-16) ---
+185.203.114.126
