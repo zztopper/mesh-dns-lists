@@ -1,0 +1,2 @@
+# personal-us IPs/subnets routed via the US exit (nyc, VNH 10.255.0.120, community 64512:7).
+# Single addresses WITHOUT /32 (sync compares strings and would delete them otherwise).
