@@ -1,0 +1,2 @@
+# personal-us: domains routed via the US exit (nyc, VNH 10.255.0.120, BGP community 64512:7).
+# One domain per line; subdomains included. Fallback when nyc is down: fra.
